@@ -10,13 +10,21 @@
     flex-direction:column;
     justify-content: center;
     width: 55%;
-    padding:100px 0 100px 0;
+    padding:0 100px 0 100px;
 }
 .about-desc > h3{
     margin-bottom: 30px;
     font-size: 28px;
 }
+.about-desc > p{
+    line-height: 1.5;
+}
 .about-img >img{
     height:450px;
     
+}
+.about-img{
+    
+    display:flex;
+    align-self:center;
 }
