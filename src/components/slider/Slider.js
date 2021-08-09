@@ -1,7 +1,8 @@
 import React from 'react';
 import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
-const slider = () => {
+import Slides from "./Slides";
+const Slider = () => {
     return (
         <div className="carousel-container">
             <div className="carousel-title">
@@ -16,11 +17,12 @@ const slider = () => {
              centered 
              offset={50}
              itemWidth={400}
+             slides={Slides}
              />
 
             
         </div>
-    )
-}
+    );
+};
 
-export default slider
+export default Slider
